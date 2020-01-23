@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(13, 13, 14);
+    color: rgb(2, 2, 2);
 }
 
 h1 {
@@ -7,5 +7,8 @@ h1 {
 }
 
 p {
-    color: rgb(10, 10, 10);
+    color: rgb(14, 13, 13);
+}
+li{
+    color: rgb(15, 15, 15);
 }
