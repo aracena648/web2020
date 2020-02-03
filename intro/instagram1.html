@@ -7,16 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>instagram</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../form_clase/font-awesome.min.css">
-
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <header>
-        <nav class="container">
+        <nav class="container bg-light">
             <div>
                 <div class="row">
                     <div class="col-xl-4 text-left"><a href="#">
@@ -30,7 +29,7 @@
                     <div class="col-xl-4 text-right">
                         <a href="#"><i class="fa fa-compass fa-2x text-dark"></i></a>
                         <a href="#"><i class="fa fa-heart fa-2x text-dark"></i></a>
-                        <a href="#"><i class="fa fa-user-o fa-2x text-dark"></i></a>
+                        <a href="#"><i class="fa fa-user fa-2x text-dark"></i></a>
                     </div>
                 </div>
             </div>
@@ -40,50 +39,42 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 text-center">
-                    <img src="../intagram/imagenes/brad-pitt.jpg" class="w-50 rounded-circle" id="perfil" alt="perfil">
-
+                <div class="col-xl-4 bg-light">
+                    <div><img src="imagenes/brad-pitt.jpg" class="perfil" width="200" alt="bratt"></div>
+                </div>
+                <div class="col-xl-4 text-center bg-success">
+                    <h2 class="jordan">Jordan</h2>
+                </div>
+                <div class="col-xl-4 text-center bg-light">
+                    <div><button type="button" class="btn btn-info">follow</button></div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toogle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                        </div>
+                    </div>
+                    
 
                 </div>
-
-                <div class="col-xl-8">
-
-                    <div>
-                        <span class="lead">VERGE</span>
-                        <i></i>
-                        <a href="#" class="btn btn-outline-secondary">Following</a>
-
-                    </div>
-
-                    <div>
-
-                        <span> <b>1048 post</b></span>
-                        <span> <b> 13.5 followers</b></span>
-                        <span><b>22 following</b></span>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio consequatur repellendus quidem at,
-                        tempora nihil corporis itaque, debitis aliquam iure, dolorum ullam qui. Magni quas expedita
-                        totam, ad ab quo!</p>
-                    <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit libero, neque, natus,
-                        delectus repudiandae obcaecati doloribus blanditiis culpa quas vitae illo alias enim? Quis, modi
-                        atque. Perferendis, maxime est.</small>
-                </div>
-
             </div>
         </div>
-
     </section>
 
     <aside>
-        <div class="container">historias</div>
+        <div class="container">historias
+
+        </div>
     </aside>
 
     <div>
         <div class="container">
             <div class="row">
+                <img src="imagenes/brad-1.jpg" height="400" alt="imagen" class="col-xl-4">
                 <img src="imagenes/brad-2.jpg" height="400" alt="imagen" class="col-xl-4">
                 <img src="imagenes/brad-3.jpg" height="400" alt="imagen" class="col-xl-4">
-                <img src="imagenes/brad-1.jpg" height="400" alt="imagen" class="col-xl-4">
             </div>
         </div>
     </div>

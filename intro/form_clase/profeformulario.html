@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Old</h2>
+        <form action="">
+            <label for="nombre_usuario">Nombre</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Nombre de usuario">
+            
+            <label for="contrasena_usuario">Contrasena</label>
+            <input type="password" id="contrasena_usuario" name="contrasena_usuario">
+
+            <input type="submit">
+
+        </form>
+
+        
+        <hr>
+        <h2>New</h2>
+        <form action="">
+
+            <div class="form-group">
+                <label for="nombre_usuario">Nombre</label>
+                <input class="form-control" type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Nombre de usuario">
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena_usuario">Contrasena</label>
+                <input class="form-control" type="password" id="contrasena_usuario" name="contrasena_usuario">
+            </div>
+        
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg btn-block">
+            </div>
+            
+        
+        </form>
+
+        <h3>Bootstrap Style 2020</h3>
+        <div class="row">
+            <div class="col-xl-6">
+                <img src="imagen_inicio.png" style="width: 100%" alt="Imagen de inicio">
+            </div>
+            <div class="col-xl-4">
+                <form action="">
+                    <h3>Iniciar sesión</h3>
+                    <div class="form-group">
+                        <label for="nombre_usuario">Nombre</label>
+                        <input class="form-control" type="text" id="nombre_usuario" name="nombre_usuario"
+                            placeholder="Escribe tu nombre de usuario">
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <label for="email_usuario">Email</label>
+                        <div class="input-group">
+                            <input class="form-control" type="email" id="email_usuario" name="email_usuario" placeholder="Escribe tu email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="contrasena_usuario">Contrasena</label>
+                        <input class="form-control" type="password" id="contrasena_usuario" name="contrasena_usuario" placeholder="Escribe tu contraseña">
+                    </div>
+                
+                    <div class="form-group">
+                        <input type="submit" value="Iniciar sesión" class="btn btn-primary btn-lg btn-block">
+                    </div>
+                
+                
+                </form>
+            </div>   
+        </div>
+    </div>    
+</body>
+</html>
