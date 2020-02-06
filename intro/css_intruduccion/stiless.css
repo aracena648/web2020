@@ -8,3 +8,13 @@ h3 {
     font-size: x-large;
     size: 100ch;
 }
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+    font-weight: 500;
+    text-indent: 20;
+}
