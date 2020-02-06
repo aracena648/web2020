@@ -17,4 +17,5 @@ p{
     box-sizing: content-box;
     font-weight: 500;
     text-indent: 20;
+    text-decoration-style: double;
 }
