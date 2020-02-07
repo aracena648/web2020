@@ -1,21 +1,55 @@
-h1 {
-    color: crimson;
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    
 }
 
-h3 {
-    color: darkblue;
-    text-align: justify;
-    font-size: x-large;
-    size: 100ch;
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 p{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: content-box;
-    font-weight: 500;
-    text-indent: 20;
-    text-decoration-style: double;
+text-indent: 50px;
+color: black;
+
 }
+
+h2{
+text-align: center;
+color: brown;
+
+
+}
+.resalt{
+background-color: aqua;
+
+}
+table{
+background-color: darkgreen;
+border-width: medium;
+border: navy;
+
+}
+img{
+
+}
+p span{
+color: magenta;
+
+}
+.textable{
+font-size-adjust: unset;
+font-size: 50px;
+color: teal;
+
+}
+p.parrafo{
+    color: orangered;
+}
+
+
+
