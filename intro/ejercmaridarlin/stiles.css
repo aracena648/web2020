@@ -1,0 +1,26 @@
+*{
+    margin: 0cm;
+    padding: 0%;
+    
+    }
+    
+    h1{
+        color: dodgerblue;
+        text-size-adjust: 20px;
+    }
+    i{
+        color: dodgerblue;
+        outline-color: dodgerblue;
+    }
+    input{
+        width: 500px;
+    }
+    textarea{
+        width: 500px;
+    }
+    button{
+        
+        background-color: dodgerblue;
+     
+    }
+    

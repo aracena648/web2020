@@ -1,3 +1,10 @@
+*{
+margin: 0em;
+padding: 0em;
+}
 body>div>a>img{
     display: none;
+}
+h1{
+    color: brown;
 }
