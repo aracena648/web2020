@@ -1,0 +1,72 @@
+   <nav>
+        <div class="container bg-light">
+            <nav class="navbar-navbar-">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="index.html">Inicio</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="contenido_web/galeria.html">Galeria</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="contenido_web/proyectos.html">Proyectos</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="contenido_web/donaciones.html">Donaciones</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="contenido_web/contactos.html">Contacto</a>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <a href="#">Menu</a>
+          </button>
+          
+
+            <div class="col">
+                <a href="index.html">Inicio</a>
+            </div>
+            <div class="col">
+                <a href="contenido_web/galeria.html">Galeria</a>
+          </div>
+          <div class="col">
+            <a href="contenido_web/proyectos.html">Proyectos</a>
+          </div>
+          <div class="col">
+            <a href="contenido_web/donaciones.html">Donaciones</a>
+          </div>
+          <div class="col">
+            <a href="contenido_web/contactos.html">Contacto</a>
+          </div>
+          <div class="col">
+              <a href="#">menu</a>
+          </div>
+          </nav>
+        </div>
+    </div>
