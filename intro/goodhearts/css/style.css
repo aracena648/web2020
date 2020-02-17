@@ -1,6 +1,7 @@
 *{
 margin: 0em;
 padding: 0em;
+background-image: url();
 
 }
 body>div>a>img{
@@ -13,9 +14,7 @@ h1{
 nav{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/54/60/47579adec691702.jpg);
 }
-#hooter1{
-    background-image: url(https://lh3.googleusercontent.com/proxy/MPtuBlez-gWsIjlzMC8j_4PiCb5EBWeYnmh4liMrH6CGO-_eC9N-EBs91g9jJnSFWNHpvrJrGrD3gcgcOFSU5hZvL-mMx4dhIIn4AZFqm1NOVVSwu_fu8A99oS-F8EXDH1Am0lY);
-}
+
 .portada{
     font-family: serif;
 }
@@ -32,4 +31,7 @@ body{
 }
 .goodi{
     border:     5px;
+}
+table{
+    border-radius: 0ch;
 }
