@@ -33,5 +33,8 @@ body{
     border:     5px;
 }
 table{
-    border-radius: 0ch;
+    border-width: 4em;
+}
+.fondo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSweS5v7qbGa5gJp2v2odGjGXKSc6TAQzzvZLqitp0JR1DCzraX);
 }
