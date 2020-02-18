@@ -40,11 +40,20 @@ h3{
     repe
 }
 label{
-    color: cadetblue;
+    color: blue;
 }
 span strong{
-    color: cadetblue;
+    color: blue;
 }
 .kill{
-    color: darkgreen;
+    color: darkslategrey;
+}
+.texto1{
+    color: sienna;
+}
+.foote{
+    background-color: cornsilk;
+}
+.abajo{
+    background-color: hotpink   ;
 }
