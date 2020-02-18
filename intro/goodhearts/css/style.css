@@ -35,6 +35,16 @@ body{
 table{
     border-width: 4em;
 }
-.fondo{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSweS5v7qbGa5gJp2v2odGjGXKSc6TAQzzvZLqitp0JR1DCzraX);
+
+h3{
+    repe
+}
+label{
+    color: cadetblue;
+}
+span strong{
+    color: cadetblue;
+}
+.kill{
+    color: darkgreen;
 }
