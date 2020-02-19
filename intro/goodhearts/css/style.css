@@ -12,7 +12,8 @@ h1{
     
 }
 nav{
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/54/60/47579adec691702.jpg);
+    background-imag: url(..//imagenes/fondo2.jpg);
+    background-color: whitesmoke;
 }
 
 .portada{
@@ -52,10 +53,14 @@ span strong{
     color: sienna;
 }
 .foote{
-    background-color: cornsilk;
+    
+    background-image: url(..//imagenes/fondo2.jpg);
+    
+    
 }
 .abajo{
-    background-color: turquoise;
+    background-color: blueviolet;
+    
 }
 .rayas1{
     display: none;
