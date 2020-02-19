@@ -41,10 +41,10 @@ h3{
     repe
 }
 label{
-    color: blue;
+    color: mediumorchid;
 }
 span strong{
-    color: blue;
+    color: mediumorchid;
 }
 .kill{
     color: darkslategrey;
@@ -67,4 +67,10 @@ span strong{
 }
 .antes{
     background-color: deeppink;
+}
+strong.list{
+    color: maroon;
+}
+.kille{
+    background-image: url(..//imagenes/fondospagos.jpg);
 }
