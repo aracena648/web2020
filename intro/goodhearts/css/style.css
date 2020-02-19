@@ -54,7 +54,7 @@ span strong{
 }
 .foote{
     
-    background-image: url(..//imagenes/fondo2.jpg);
+    background-image: url(..//imagenes/SENCILLOS.png);
     
     
 }
@@ -70,10 +70,14 @@ span strong{
 }
 strong.list{
     color: maroon;
+    font-size: 2em;
 }
 .kille{
     background-image: url(..//imagenes/fondospagos.jpg);
 }
 h3 strong a{
     color: mediumpurple;
+}
+ol<li{
+    font-size: 10pt;
 }
