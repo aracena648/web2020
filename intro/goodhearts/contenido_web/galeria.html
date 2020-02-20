@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="..//css/style.css">
     <link rel="stylesheet" href="..//css/animate.css">
     <link rel="stylesheet" href="..//css/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
+    <aside></aside>
     <header>
 
         <div class="container-fluid mb-4">
@@ -46,17 +48,17 @@
                                         <a class="nav-link" href="donaciones_contacto.html">Donaciones y
                                             contacto</a>
                                     </li>
-
-
-
-
                                 </ul>
                             </div>
-
                             <!-- form de busqueda -->
-                            <div class="md-form mt-0">
-                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            <div class="navbar navbar-light">
+                                <form class="form-inline bg-light">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="search">
+                                    <button class="btn btn-ouline-secondary my-sm-0" type="submit">Buscar</button>
+                                </form>
                             </div>
+
+
 
                         </nav>
 
@@ -69,17 +71,25 @@
 
 
     <div class="container">
-<div class="row">
-    <div class="col">
-        <div class="embed-responsive embed-responsive-21by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=Ubh7GJDC_5s"></iframe>
-          </div>
-    </div>
-</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <video class="control" src="..//imagenes/videos/video_play.mkv"></video>
+                    <iframe class="embed-responsive-item" src="videos"></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-offset-4">
+                <audio controls style="width: 600;" src="../imagenes/audios/amor_y_control.mp3"
+                    class="autoplay loop"></audio>
+            </div>
+
+
+        </div>
     </div>
 
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
