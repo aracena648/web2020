@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Good Hearts</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <!-- favicon -->
     <link rel="shortcut icon" href="..//imagenes/favicon.ico" type="image/x-icon">
+    <!-- interna CSS -->
     <link rel="stylesheet" href="..//css/style.css">
+    <!-- animaciones -->
     <link rel="stylesheet" href="..//css/animate.css">
+    <!-- animated CSS -->
     <link rel="stylesheet" href="..//css/animate.min.css">
 
 </head>
@@ -17,54 +22,43 @@
 <body>
     <header>
 
-        <div class="container">
-            <div>
-                <div>
-                    <div>
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="..//index.html">
-                                <h3 class="portada">Good Hearts</h3>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="quienessomos.html">Quienes Somos<span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="galeria.html">Galeria <span
-                                                class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="proyectos.html">Proyectos</a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="donaciones.html">Donaciones</a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="contactos.html">Contactos</a>
-                                    </li>
-                                </ul>
-                            </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="..//index.html"><img src="../imagenes/logoty.jpg" width="200" class="rounded-circle" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                            <!-- Search form -->
-                            <div class="md-form mt-0">
-                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                            </div>
-
-                        </nav>
-
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="galeria.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galerias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Recientes</a>
+                            <a class="dropdown-item" href="#">Antiguas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">enero</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyectos.html" tabindex="-1" aria-labelledby="true">Proyectos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-
-        </div>
-        
-
+        </nav>
 
 
     </header>
