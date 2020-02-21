@@ -12,7 +12,6 @@ h1{
     
 }
 nav{
-    background-imag: url(..//imagenes/fondo2.jpg);
     background-color: whitesmoke;
 }
 
@@ -25,11 +24,6 @@ h2 h3 h4 h5{
 footer.container{
     background-repeat: repeat;
 }
-
-
-body{
-   background-color:;
-}
 .goodi{
     border:     5px;
 }
@@ -37,9 +31,12 @@ table{
     border-width: 4em;
 }
 
-h3{
-    repe
+h2 , h3 ,h4 ,h5 ,h6{
+ font-size: 30pt;
 }
+strong{
+    font-size: 16pt;
+   }
 label{
     color: mediumorchid;
 }
@@ -95,4 +92,11 @@ ol>li{
 }
 p{
     font-size: 19pt;
+}
+blockquote{
+    font-family: cursive;
+}
+.suscri{
+    font-size: 20pt;
+    color: black;
 }
