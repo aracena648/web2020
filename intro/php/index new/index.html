@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook -Inicia Sesion o registrate</title>
+    <link rel="stylesheet" href="..//bootstrap.min.css">
+    <link rel="stylesheet" href="..//still.css">
+    <link rel="icon" type="image/png" href="..//favi1.png">
+</head>
+
+<body>
+    <!--barra azul arriba-->
+    <header>
+        <div class="container-fluid azul text-center">
+            <div class="row">
+                <div class="col">
+                    <h1><a href="index.html">facebook</a></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--barra amarilla get facebok-->
+    <div class="container-fluid amarilla text-left">
+        <div class="row">
+            <div class="col">
+                <p><a href="index.html" class="amar">Get facebook lite and browse faster</a></p>
+            </div>
+        </div>
+    </div>
+    <!--barra vacia gris-->
+    <section class="form">
+        <div class="container-fluid">
+            <div class="row">
+                <h4 class="trasp">transparent</h4>
+            </div>
+        </div>
+    </section>
+    <!--seccion de contenido-->
+    <section class="form">
+        <div class="container">
+            <form action="guardar.php" method="POST">
+                <div class="form-group">
+                    <div>
+                        <input type="text" name="correo" maxlength="40" class="form-control" placeholder="Mobile number or email">
+                    </div>
+                    <div>
+                        <input type="password" name="password" class="form-control mt-2" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group mt-2 text-center">
+                    <button type="submit" name="login" class="btn btn-primary mb-2 btn-block">Log in</button>
+                </div>
+                <div class="form-group mt-2">
+                    <h4 class="text-center">or</h4>
+                </div>
+                <div class="form-group mt-3">
+                    <button type="submit" class="form-control btn btn-success"><a href="index.html">Create New
+                            Account</a></button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <?php
+    include("registrar.php")
+    ?>
+
+
+
+
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

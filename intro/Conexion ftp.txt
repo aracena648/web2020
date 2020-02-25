@@ -7,3 +7,13 @@ Password: celina1989
 
 
 goodhearts.000webhostapp.com
+
+
+
+ <input type="submit" class="form-control btn btn-primary arybtn-md" id="bott1"><a
+                        href="http://gg.gg/goowq">Log in</a></input>
+
+
+ <a href="redirect.html"><input type="submit" value="Log in" class="btn btn-primary btn-block"></a>
+
+<input type="submit" class="btn btn-primary btn-block"><a href="redirect.html">Log in</a></input>
